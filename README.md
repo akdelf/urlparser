@@ -17,4 +17,3 @@ Result array (
 * method (GET, POST ...)
 * permanent MVC rule: control/action/params
 
-(c) AK Delfin
