@@ -1,0 +1,9 @@
+{
+    "name": "akdelf/urlparser",
+    "description": "Quick MVC router without regular. Standart role: controller/action/params",
+    "homepage": "https://github.com/akdelf/urlparser",
+    "keywords": ["Router, MVC"],
+    "autoload": {
+        "files": ["urlparser"]
+    }
+}
