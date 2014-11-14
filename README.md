@@ -24,13 +24,13 @@ print_r($result);
 ----------------------------------------------------------------
 Array
 (
-    [protocol] => http
-    [domain] => argumenti.ru
-    [control] => rss
-    [action] => an
-    [params] => Array
+    * [protocol] => http
+    * [domain] => argumenti.ru
+    * [control] => rss
+    * [action] => an
+    * [params] => Array
         (
-            [0] => yandexnews
+    *        [0] => yandexnews
         )
 
 
