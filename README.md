@@ -1,5 +1,6 @@
 ## URLPARSER
 
+PHP >= 5.2.0
 
 Quickstart MVC router without regular. Routing: controller/action/params
 
