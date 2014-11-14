@@ -11,3 +11,11 @@ Return result array ( _'protocol', 'domain', 'method', 'control', 'action', 'par
 * method (GET, POST ...)
 * permanent MVC rule: control/action/params
 
+
+EXAMPLE:
+
+require 'urlparse.php';
+$result = url_parser('http://www.argumenti.ru/rss/an/yandexnews');
+
+print_r($result);
+
