@@ -7,7 +7,7 @@ Quickstart MVC router without regular. MVC standart role: _controller/action/par
 Return result array ( _'protocol', 'domain', 'method', 'control', 'action', 'params'_ )
 
 * protocol (http, https)
-* domain (default $_SERVER[ _'QUERY_STRING'_ ])
+* domain (default _$_SERVER['QUERY_STRING']_)
 * method (GET, POST ...)
 * permanent MVC rule: control/action/params
 
@@ -15,6 +15,7 @@ Return result array ( _'protocol', 'domain', 'method', 'control', 'action', 'par
 
 
 [EXAMPLE]
+
 
 require 'urlparse.php';
 $result = url_parser('http://www.argumenti.ru/rss/an/yandexnews');
@@ -24,13 +25,13 @@ print_r($result);
 ----------------------------------------------------------------
 Array
 (
-    * [protocol] => http
-    * [domain] => argumenti.ru
-    * [control] => rss
-    * [action] => an
-    * [params] => Array
+    [protocol] => http
+    [domain] => argumenti.ru
+    [control] => rss
+    [action] => an
+    [params] => Array
         (
-    *        [0] => yandexnews
+          [0] => yandexnews
         )
 
 
