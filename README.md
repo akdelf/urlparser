@@ -1,7 +1,7 @@
-__URLPARSER__
+## URLPARSER
 
 
-Quick MVC router without regular. Routing: controller/action/params
+Quickstart MVC router without regular. Routing: controller/action/params
 
 Result array (
   'protocol',
