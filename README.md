@@ -2,15 +2,15 @@
 
 PHP >= 5.2.0
 
-Quickstart MVC router without regular. MVC standart role: __controller/action/params__
+Quickstart MVC router without regular. MVC standart role: _controller/action/params_
 
-Return result array ([
+Return result array (
   'protocol',
   'domain',
   'method',
   'control',
   'action',
-  'params']
+  'params'
 )
 
 * protocol (http, https)
