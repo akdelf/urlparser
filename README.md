@@ -7,7 +7,7 @@ Quickstart MVC router without regular. MVC standart role: _controller/action/par
 Return result array ( _'protocol', 'domain', 'method', 'control', 'action', 'params'_ )
 
 * protocol (http, https)
-* domain (default $_SERVER['QUERY_STRING'])
+* domain (default $_SERVER[_'QUERY_STRING'_])
 * method (GET, POST ...)
 * permanent MVC rule: control/action/params
 
