@@ -3,7 +3,7 @@
 
 Quickstart MVC router without regular. Routing: controller/action/params
 
-Result array (
+Return result array (
   'protocol',
   'domain',
   'method',
