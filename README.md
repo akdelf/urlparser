@@ -12,10 +12,25 @@ Return result array ( _'protocol', 'domain', 'method', 'control', 'action', 'par
 * permanent MVC rule: control/action/params
 
 
-EXAMPLE:
+
+
+[EXAMPLE]
 
 require 'urlparse.php';
 $result = url_parser('http://www.argumenti.ru/rss/an/yandexnews');
 
 print_r($result);
+
+----------------------------------------------------------------
+Array
+(
+    [protocol] => http
+    [domain] => argumenti.ru
+    [control] => rss
+    [action] => an
+    [params] => Array
+        (
+            [0] => yandexnews
+        )
+
 
