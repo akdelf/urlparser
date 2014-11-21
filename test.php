@@ -2,7 +2,4 @@
 
 	require 'urlparse.php';
 
-	$result = url_parser('http://argumenti.ru/rss/an/yandexnews');
-
-	print_r($result);
-
+	$result = url_parser('http://argumenti.ru/main/id/12');
